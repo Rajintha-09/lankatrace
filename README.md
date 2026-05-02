@@ -130,18 +130,4 @@ Open your browser at `http://localhost:8501`
 
 ---
 
-## 📋 Assignment Requirements Checklist
-
-| Requirement | Status |
-|---|---|
-| Real-world use case | ✅ Sri Lanka public transport lost & found |
-| AI agent with reasoning | ✅ Goal-based planning, LLM extraction, decision logic |
-| Memory integration | ✅ `AgentMemory` class — full conversation + data state |
-| Python with relevant libraries | ✅ Groq, Streamlit, sentence-transformers, Pillow, SQLite |
-| Modular, clean code | ✅ Separate modules: agent, matcher, database, pages |
-| Interactive user interface | ✅ Streamlit multi-page app |
-| YouTube Short demo | ✅ [Link above](#) |
-
----
-
 
