@@ -144,10 +144,4 @@ Open your browser at `http://localhost:8501`
 
 ---
 
-## 📄 License
 
-This project was developed as an individual academic assignment for the **Data Science Applications and AI [LB3114]** module at **General Sir John Kotelawala Defence University** — Intake 41, 3rd Year 1st Semester.
-
----
-
-*Built with ❤️ for Sri Lanka 🇱🇰*
