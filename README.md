@@ -4,34 +4,34 @@
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Every day, thousands of passengers on Sri Lanka's public transport network lose personal belongings — phones, wallets, bags, IDs — with little to no formal system to recover them. LankaTrace solves this with an intelligent, conversational AI agent that collects reports, analyzes photos, and automatically matches lost items with found ones.
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 
-▶️ **[Watch on YouTube]** *(https://youtube.com/shorts/LMAu0WigTsY)*
+**[Watch on YouTube]** *(https://youtube.com/shorts/LMAu0WigTsY)*
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🤖 **Conversational AI Agent** | Step-by-step chat agent guides users through filing a report using natural language |
-| 🧠 **Agent Memory & Planning** | `AgentMemory` class tracks conversation state, collected data, and current step |
-| 📷 **AI Image Analysis** | Upload a photo — LLaMA 4 Scout vision model auto-detects item type, color, and features |
-| 🔍 **Semantic Matching** | `sentence-transformers` + cosine similarity + rule-based hybrid scoring to match lost ↔ found reports |
-| 💬 **AI Match Explanation** | LLaMA 3.3 explains why two reports might match in plain English |
-| 🗃️ **SQLite Database** | Persistent storage for all reports and matches with auto-generated tracking IDs |
-| 📱 **Streamlit UI** | Clean, dark-themed multi-page web app designed for mobile and desktop |
-| 🔒 **Ownership Verification** | Lost reporters provide a secret detail to verify identity when collecting items |
+|**Conversational AI Agent** | Step-by-step chat agent guides users through filing a report using natural language |
+|**Agent Memory & Planning** | `AgentMemory` class tracks conversation state, collected data, and current step |
+|**AI Image Analysis** | Upload a photo — LLaMA 4 Scout vision model auto-detects item type, color, and features |
+|**Semantic Matching** | `sentence-transformers` + cosine similarity + rule-based hybrid scoring to match lost ↔ found reports |
+|**AI Match Explanation** | LLaMA 3.3 explains why two reports might match in plain English |
+|**SQLite Database** | Persistent storage for all reports and matches with auto-generated tracking IDs |
+|**Streamlit UI** | Clean, dark-themed multi-page web app designed for mobile and desktop |
+|**Ownership Verification** | Lost reporters provide a secret detail to verify identity when collecting items |
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 lankatrace/
@@ -52,7 +52,7 @@ lankatrace/
 
 ---
 
-## 🧠 How the AI Agent Works
+## How the AI Agent Works
 
 The agent follows a **goal-driven, memory-augmented** architecture:
 
@@ -72,7 +72,7 @@ User Input → AgentMemory → agent_decide_next_field() → get_question_prompt
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |---|---|
@@ -88,7 +88,7 @@ User Input → AgentMemory → agent_decide_next_field() → get_question_prompt
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### 1. Clone the repository
 ```bash
@@ -119,7 +119,7 @@ Open your browser at `http://localhost:8501`
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. **Report Lost Item** — Chat with the AI agent, optionally upload a photo, and receive a Tracking ID
 2. **Report Found Item** — Describe what you found; the agent collects details and checks for matches
