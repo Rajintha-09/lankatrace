@@ -12,8 +12,7 @@ Every day, thousands of passengers on Sri Lanka's public transport network lose 
 
 ## 🎥 Demo Video
 
-▶️ **[Watch on YouTube](#)**  
-*https://youtube.com/shorts/LMAu0WigTsY*
+▶️ **[Watch on YouTube](https://youtube.com/shorts/LMAu0WigTsY)**
 
 ---
 
@@ -25,7 +24,7 @@ Every day, thousands of passengers on Sri Lanka's public transport network lose 
 | 🧠 **Agent Memory & Planning** | `AgentMemory` class tracks conversation state, collected data, and current step |
 | 📷 **AI Image Analysis** | Upload a photo — LLaMA 4 Scout vision model auto-detects item type, color, and features |
 | 🔍 **Semantic Matching** | `sentence-transformers` + cosine similarity + rule-based hybrid scoring to match lost ↔ found reports |
-| 💬 **AI Match Explanation** | LLaMA 3.3 explains *why* two reports might match in plain English |
+| 💬 **AI Match Explanation** | LLaMA 3.3 explains why two reports might match in plain English |
 | 🗃️ **SQLite Database** | Persistent storage for all reports and matches with auto-generated tracking IDs |
 | 📱 **Streamlit UI** | Clean, dark-themed multi-page web app designed for mobile and desktop |
 | 🔒 **Ownership Verification** | Lost reporters provide a secret detail to verify identity when collecting items |
@@ -48,9 +47,7 @@ lankatrace/
 │   └── 3_my_reports.py     # Track your report by Tracking ID or NIC
 │
 ├── photos/                 # Uploaded item photos (auto-created)
-├── lost_found.db           # SQLite database (auto-created on first run)
-├── requirements.txt        # Python dependencies
-└── .env                    # API keys (NOT uploaded — see setup below)
+└── requirements.txt        # Python dependencies
 ```
 
 ---
@@ -95,7 +92,7 @@ User Input → AgentMemory → agent_decide_next_field() → get_question_prompt
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/lankatrace.git
+git clone https://github.com/Rajintha-09/lankatrace.git
 cd lankatrace
 ```
 
@@ -129,5 +126,4 @@ Open your browser at `http://localhost:8501`
 3. **Check Your Report** — Enter your Tracking ID or NIC to see your report status and any matches
 
 ---
-
 
