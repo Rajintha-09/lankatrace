@@ -1,4 +1,4 @@
-# 🚌 LankaTrace — AI-Powered Lost & Found for Sri Lanka Public Transport
+# 🚌 LankaTrace — AI Powered Lost & Found for Sri Lanka Public Transport
 
 > An autonomous AI agent that helps passengers report and recover lost items on Sri Lankan buses and trains — built with Groq LLaMA, Streamlit, semantic matching, and computer vision.
 
