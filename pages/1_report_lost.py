@@ -318,11 +318,12 @@ if not st.session_state.lost_done:
         # ─────────────────────────────────────────────────────────────────────────
         next_q = agent_decide_next_field("lost", memory)
         identity_done = bool(memory.data.get("identity_proof"))
-        all_questions_done = next_q is None or (next_q == "identity_proof" and identity_done)
+        all_questions_done = (next_q is None) or (next_q == "identity_proof" and identity_done)
         photo_pending = (
             all_questions_done
             and not memory.data.get("ai_description")
             and not memory.data.get("_photo_skipped")
+            and memory.data.get("identity_proof")  # only show photo step after identity proof is collected
         )
 
         if photo_pending:
